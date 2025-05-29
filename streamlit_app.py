@@ -18,7 +18,6 @@ with st.chat_message("user",avatar ="🦖"):
 # Generate a response using the OpenAI API.
 contexto = "En el curso del Cudd sobre agentes virtuales, el instructor es Jose Napoles"
 
-
 promptFinal = contexto + prompt
 stream = client.chat.completions.create(
         model="gpt-4o-mini",  
