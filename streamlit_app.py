@@ -10,7 +10,7 @@ client = OpenAI(api_key=openai_api_key)
 
 prompt = st.chat_input("como puedo ayudarte?")
 if prompt==None:
-#   st.stop()
+   st.stop()
 
 with st.chat_message("user",avatar ="🦖"):
    st.markdown(prompt)
